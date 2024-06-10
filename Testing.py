@@ -9,6 +9,7 @@ from your_script import *
 import string
 import random
 
+
 def answers_SCSS(array_object):
     data = array_object[0]
     element = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, f"//label[text()='{data}']")))
